@@ -1,0 +1,25 @@
+.home{
+    background-color: rgb(44, 42, 42);
+    width: 20%;
+    height: 620px ;
+    color: white;
+    font-size: medium;
+}
+ul{
+    list-style-type: none;
+}
+.sub{
+    color: wheat;
+    font-size: large;
+    padding-bottom: 10px;
+    padding-right: 750px;
+}
+.gen{
+    display: flex;
+}
+.sec{
+    background-color: black ;
+    width: 80%;
+    height: 620px;
+    display: flex;
+}

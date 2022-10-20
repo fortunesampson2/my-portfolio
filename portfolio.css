@@ -1,0 +1,143 @@
+.gen{
+    max-width: 100%;
+    display: flex;
+    /* background-color: aquamarine; */
+   
+    
+
+}
+.first{
+    width: 60%;
+    height: 1300px;
+    background-color: khaki;
+    position: relative;
+    -webkit-box-reflect: below -20px
+    linear-gradient(transparent,rgba(0,0,0,.2));
+    font-size: 40px;
+}
+
+.sec{
+    width: 500px;
+    height: 1300px;
+    /* background-color: aquamarine; */
+    background-image: url(./image/1665514085120.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0% 0%;
+    
+    
+     
+
+}
+.name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    color: white;
+}
+.name:hover span{
+  display: none;
+}
+.name:hover::after{
+    content: "SAMPSON";
+    color: brown;
+}
+
+
+
+.front{
+    padding-left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #aea5cf 0%,
+        black 28%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+     animation:textclip 2s linear infinite; 
+     display: inline-block;
+}
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+.ux{  
+     padding-left: 50px;
+     font-size: 20px;
+     color: green;
+     padding-top: 20px;
+
+}
+ul{
+    list-style-type: none;
+    padding-left: 50px;
+    font-size: 30px;
+    color: white;
+}
+.first span{
+    position: relative;
+    display: inline-block;
+    color: black;
+    text-transform: uppercase;
+    animation: first 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    padding-left: 40px;
+    /* padding-top: 40px; */
+}
+@keyframes first {
+    0%,40%,100% {
+        transform: translateY(0)
+    }
+    20% {
+        transform: translateY(-20px)
+    }
+}
+a:link{
+color: purple;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: hotpink;
+}
+a:active{
+    color: blue;
+}
+body{
+    margin: 0%;
+}
+/* .dropbtn{
+    background-color: rgb(163, 159, 159);
+    color: white;
+    padding: 16px;
+} */
+.tags{
+    display: inline-flex;
+   font-size: 30px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+.third{
+   padding-top: 250px;
+}
+.icons{
+ padding-top: 50px;
+}
+
+
+

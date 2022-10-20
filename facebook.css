@@ -1,0 +1,60 @@
+header{
+    background-color: rgb(63, 56, 56);
+    height: 40px;
+}
+.face{
+    text-align: center;
+    margin: 6px 5px;
+    font-size: 30px;
+    width: 50px;
+    background: #3B5998;
+    color: white;
+    border-radius: 30%;
+    
+}
+
+.box1{
+    background-color: black;
+    width: 400px;
+    color: white;
+    
+
+}
+.box2{
+    background-color: red;
+    width: 600px;
+    display: flex;
+    
+    
+}
+.box3{
+    width: 350px;
+    background-color: black;
+    color: white;
+   
+    
+}
+.first{
+    display: flex;
+    max-width: 1350px; 
+    height: 730px;
+    min-width: 1350px;
+}
+.line{
+    width: 500px;
+   
+}
+
+
+
+.list1{
+    list-style-type: none   ;
+}
+.grid{
+    display: grid;
+}
+
+
+
+
+

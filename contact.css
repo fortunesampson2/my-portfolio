@@ -1,0 +1,17 @@
+body{
+    background-color:rgb(77, 67, 67);
+    color:white;
+}
+#exampleInputPassword{
+    height: 300px;
+    background-color: dodgerblue;
+   
+}
+#exampleInputPassword1{
+    width: 600px;
+    height: 100px;
+}
+#exampleInputEmail1{
+    width: 300px;
+    height: 100px;
+}
